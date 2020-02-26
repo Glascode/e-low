@@ -1,0 +1,24 @@
+{
+  "name": "e-low",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nuxt",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Glascode/e-low.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Glascode/e-low/issues"
+  },
+  "homepage": "https://github.com/Glascode/e-low#readme",
+  "dependencies": {
+    "nuxt": "^2.11.0"
+  }
+}
