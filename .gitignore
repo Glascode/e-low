@@ -1,4 +1,14 @@
-.DS_Store
-.idea
-
+# Node dependencies
 node_modules/
+
+# Nuxt build
+.nuxt/
+
+# Dist folders
+dist/
+
+# IDE
+.idea/
+
+# macOS
+.DS_Store
