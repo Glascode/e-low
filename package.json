@@ -20,5 +20,8 @@
   "homepage": "https://github.com/Glascode/e-low#readme",
   "dependencies": {
     "nuxt": "^2.11.0"
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^1.3.3"
   }
 }
