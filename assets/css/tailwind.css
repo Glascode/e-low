@@ -1,8 +1,11 @@
 @import 'tailwindcss/base';
 
 @import 'tailwindcss/components';
+@import './components/aside.css';
 @import './components/cards.css';
+@import './components/icons.css';
 @import './components/progress.css';
 @import './components/typography.css';
+
 
 @import 'tailwindcss/utilities';
