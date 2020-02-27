@@ -6,12 +6,12 @@
       <div class="flex items-center">
         <button v-for="chart in charts"
                 @click="activeChartId = chart.id"
-                :class="[chart.id === activeChartId ? 'text-white bg-primary' : 'bg-primary-light']"
+                :class="[chart.id === activeChartId ? 'text-white bg-primary' : 'bg-primary-light dark:text-black']"
                 class="ml-2 first:ml-0 px-4 font-bold leading-loose rounded-full">{{ chart.name }}
         </button>
-        <button class="ml-2 px-4 font-bold bg-primary-light leading-loose rounded-full">1m</button>
-        <button class="ml-2 px-4 font-bold bg-primary-light leading-loose rounded-full">3m</button>
-        <button class="ml-2 px-4 font-bold bg-primary-light leading-loose rounded-full">6m</button>
+        <button class="ml-2 px-4 font-bold bg-primary-light leading-loose rounded-full dark:text-black">1m</button>
+        <button class="ml-2 px-4 font-bold bg-primary-light leading-loose rounded-full dark:text-black">3m</button>
+        <button class="ml-2 px-4 font-bold bg-primary-light leading-loose rounded-full dark:text-black">6m</button>
       </div>
     </div>
 

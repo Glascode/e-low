@@ -1,7 +1,7 @@
 <template>
-  <div class="aside flex-shrink-0 flex flex-col items-center pt-8 w-56 z-20">
+  <div class="aside flex-shrink-0 flex flex-col items-center pt-8 w-56 z-20 dark:text-white dark:bg-dark-fg">
     <nuxt-link to="/">
-      <img class="w-32 mb-8" src="/images/logo.png">
+      <img class="logo w-32 mb-8" src="/images/logo.png">
     </nuxt-link>
 
     <img class="flex-shrink-0 w-32 h-32 border-3 border-primary rounded-full mb-6"
@@ -52,7 +52,3 @@
     }
   }
 </script>
-
-<style scoped>
-
-</style>

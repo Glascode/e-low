@@ -12,7 +12,7 @@
         <h2 class="heading mb-4">Quelques chiffres</h2>
         <div class="flex justify-between -mx-2">
           <div class="w-full md:w-1/3 flex flex-col items-center px-2">
-            <div class="mb-2 py-4 px-6 text-center bg-primary-light rounded-lg">
+            <div class="mb-2 py-4 px-6 text-center bg-primary-light rounded-lg dark:bg-dark-bg">
               <h3 class="heading">573</h3>
               <div class="text-primary">e-mails envoyés</div>
             </div>
@@ -21,7 +21,7 @@
           </div>
 
           <div class="w-full md:w-1/3 flex flex-col items-center px-2">
-            <div class="mb-2 py-4 px-6 text-center bg-primary-light rounded-lg">
+            <div class="mb-2 py-4 px-6 text-center bg-primary-light rounded-lg dark:bg-dark-bg">
               <h3 class="heading">1024</h3>
               <div class="text-primary">messages instantanés</div>
             </div>
@@ -30,7 +30,7 @@
           </div>
 
           <div class="w-full md:w-1/3 flex flex-col items-center px-2">
-            <div class="mb-2 py-4 px-6 text-center bg-primary-light rounded-lg">
+            <div class="mb-2 py-4 px-6 text-center bg-primary-light rounded-lg dark:bg-dark-bg">
               <h3 class="heading">90&nbsp;h</h3>
               <div class="text-primary">d'écran de veille</div>
             </div>
@@ -53,7 +53,7 @@
         <h2 class="heading mb-4">Statistiques d'entreprise</h2>
 
         <div class="flex items-start mb-4">
-          <div class="flex-shrink-0 mr-4 p-2 text-primary bg-primary-light rounded-lg">
+          <div class="flex-shrink-0 mr-4 p-2 text-primary bg-primary-light rounded-lg dark:bg-dark-bg">
             <h2 class="heading">1011 Go</h2>
           </div>
           <p class="font-medium">C’est l’économie totale réalisée par l’entreprise,
@@ -61,7 +61,7 @@
         </div>
 
         <div class="flex items-start mb-6">
-          <div class="flex-shrink-0 mr-4 p-2 text-primary bg-primary-light rounded-lg">
+          <div class="flex-shrink-0 mr-4 p-2 text-primary bg-primary-light rounded-lg dark:bg-dark-bg">
             <h2 class="heading">19,3 Go</h2>
           </div>
           <p class="font-medium">C’est l’économie réalisée en moyenne par personne,
