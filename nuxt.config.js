@@ -33,6 +33,7 @@ module.exports = {
         'postcss-import': {},
         'tailwindcss': {},
         'postcss-nested': {},
+        // 'tailwindcss-dark-mode': {},
         'autoprefixer': {}
       }
     }
