@@ -1,0 +1,5 @@
+.progress-bar {
+  height: .4rem;
+  @apply bg-gray-300;
+  @apply rounded-full;
+}
