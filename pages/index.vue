@@ -1,7 +1,10 @@
 <template>
-  <main>pages/index.vue</main>
+  <main>
+  </main>
 </template>
 
 <script>
+  export default {
 
+  }
 </script>

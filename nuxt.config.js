@@ -1,7 +1,7 @@
 module.exports = {
-  buildModules: [
-    '@nuxtjs/tailwindcss'
-  ],
+  /*
+   * Headers of the page
+   */
   head: {
     titleTemplate: this.title ? this.title + ' · ' : '' + 'E-low',
     meta: [
@@ -14,5 +14,24 @@ module.exports = {
     link: [
       { rel: 'icon', type: 'image/png', href: '/favicon.png' }
     ]
+  },
+  /*
+   * Nuxt.js dev-modules
+   */
+  buildModules: [
+    '@nuxtjs/tailwindcss'
+  ],
+  /*
+   * Build configuration
+   */
+  build: {
+    postcss: {
+      plugins: {
+        'postcss-import': {},
+        // 'tailwindcss': {},
+        'postcss-nested': {},
+        'autoprefixer': {}
+      }
+    }
   }
 }
