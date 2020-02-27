@@ -1,8 +1,8 @@
 <template>
-  <div class="flex flex-wrap -mx-4">
+  <div class="flex flex-wrap">
     <div class="w-full md:w-3/5 px-4">
       <Card class="mb-8 bg-primary-light">
-        <h2 class="heading mb-2">Bienvenue Margot !</h2>
+        <h2 class="heading mb-4">Bienvenue Margot !</h2>
         <p>Félicitations ! Vous avez réduit votre consommation de 72.3 Mo cette semaine ! Vous avez donc gagné 7.2 💵</p>
       </Card>
 
@@ -40,6 +40,12 @@
     </div>
     <div class="w-full md:w-2/5 px-4">
       <CardDetails />
+
+      <Card class="mb-8 bg-primary-light">
+        <h2 class="heading mb-4">Vous y êtes presque !</h2>
+        <p class="mb-4">Economisez encore 279.5mo afin de devenir 4ème meilleur réducteur de pollution numérique chez CDiscount !</p>
+        <p>Allez, encore un effort ! 🚀</p>
+      </Card>
     </div>
   </div>
 </template>

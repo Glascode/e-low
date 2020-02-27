@@ -1,6 +1,6 @@
 <template>
   <Card class="mb-8 py-8 px-12 bg-white">
-    <h2 class="heading mb-2">Détails conso.</h2>
+    <h2 class="heading mb-4">Détails conso.</h2>
 
     <div class="mb-4 font-bold">
       <div v-for="service in services"
@@ -16,9 +16,22 @@
     </div>
 
     <div class="flex">
-      <div class="py-2 px-8 text-primary bg-primary-light rounded-lg">
+      <div class="mr-4 py-2 px-8 text-primary bg-primary-light rounded-lg">
         <h2 class="heading">2.42 Go</h2>
         <div>économisés</div>
+      </div>
+
+      <div class="flex flex-col justify-evenly font-bold">
+        <div class="flex items-center">
+          <span class="w-2 h-2 bg-gray-300 rounded-full mr-2" /> Données théoriques
+        </div>
+        <div class="flex items-center">
+          <div class="flex items-center mr-2">
+            <span class="w-2 h-2 bg-primary rounded-full z-30" />
+            <span class="w-2 h-2 bg-orange-400 rounded-full -ml-1 z-20" />
+            <span class="w-2 h-2 bg-red-600 rounded-full -ml-1 zind-10" />
+          </div> Données consommées
+        </div>
       </div>
     </div>
   </Card>
