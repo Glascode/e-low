@@ -1,13 +1,13 @@
 <template>
   <Card class="mb-8 bg-white">
-    <div class="flex items-center justify-between mb-4">
-      <h2 class="heading">Consommation</h2>
+    <div class="flex flex-wrap items-center justify-between mb-4">
+      <h2 class="heading mr-2">Consommation</h2>
 
       <div class="flex items-center">
         <button v-for="chart in charts"
                 @click="activeChartId = chart.id"
                 :class="[chart.id === activeChartId ? 'text-white bg-primary' : 'bg-primary-light']"
-                class="ml-2 px-4 font-bold leading-loose rounded-full">{{ chart.name }}
+                class="ml-2 first:ml-0 px-4 font-bold leading-loose rounded-full">{{ chart.name }}
         </button>
         <button class="ml-2 px-4 font-bold bg-primary-light leading-loose rounded-full">1m</button>
         <button class="ml-2 px-4 font-bold bg-primary-light leading-loose rounded-full">3m</button>

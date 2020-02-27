@@ -1,3 +1,5 @@
+const plugin = require('tailwindcss/plugin')
+
 module.exports = {
   theme: {
     extend: {
@@ -16,9 +18,17 @@ module.exports = {
     }
   },
   variants: {
-    // backgroundColor: ['dark'],
-    // borderColor: ['dark'],
-    // textColor: ['dark']
+    color: ['responsive', 'hover', 'focus', 'dark'],
+    backgroundColor: ['responsive', 'hover', 'focus', 'dark'],
+    margin: ['responsive', 'first']
   },
-  plugins: []
+  plugins: [
+    plugin(function({ addVariant, e }) {
+      addVariant('dark', ({ modifySelectors, separator }) => {
+        modifySelectors(({ className }) => {
+          return `.dark .${e(`dark${separator}${className}`)}`
+        })
+      })
+    })
+  ]
 }

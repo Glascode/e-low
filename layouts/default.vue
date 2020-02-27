@@ -1,7 +1,9 @@
 <template>
   <div class="root flex">
     <div class="aside flex-shrink-0 flex flex-col items-center pt-8 w-56 z-20">
-      <img class="w-32 mb-8" src="/images/logo.png">
+      <nuxt-link to="/">
+        <img class="w-32 mb-8" src="/images/logo.png">
+      </nuxt-link>
 
       <img class="flex-shrink-0 w-32 h-32 border-3 border-primary rounded-full mb-6"
            src="/images/avatar.png">
