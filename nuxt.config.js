@@ -28,10 +28,13 @@ module.exports = {
     postcss: {
       plugins: {
         'postcss-import': {},
-        // 'tailwindcss': {},
+        'tailwindcss': {},
         'postcss-nested': {},
         'autoprefixer': {}
       }
     }
+  },
+  router: {
+    linkActiveClass: 'active'
   }
 }

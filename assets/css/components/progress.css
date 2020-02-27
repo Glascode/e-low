@@ -1,0 +1,10 @@
+.progress-bar {
+  height: .4rem;
+  @apply bg-gray-300;
+  @apply rounded-full;
+
+  .progress {
+    height: 100%;
+    border-radius: inherit;
+  }
+}
