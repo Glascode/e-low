@@ -3,7 +3,7 @@
 }
 
 .nav {
-  .nav-item:not(first-child) {
+  .nav-item:not(:first-child) {
     @apply mt-8;
   }
 

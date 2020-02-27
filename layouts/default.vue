@@ -3,11 +3,11 @@
     <div class="aside flex-shrink-0 flex flex-col items-center pt-8 w-56 z-20">
       <img class="w-32 mb-8" src="/images/logo.png">
 
-      <div class="flex-shrink-0 w-32 h-32 border-3 border-primary rounded-full mb-6">
-        <img src="" alt="">
-      </div>
-      <div class="mb-6 font-semibold">Utilisateur N°19290</div>
-      <div class="text-xs">Mes points : <strong>72</strong> 💵</div>
+      <img class="flex-shrink-0 w-32 h-32 border-3 border-primary rounded-full mb-6"
+           src="/images/avatar.png">
+
+      <div class="mb-4 font-semibold">Utilisateur N°19290</div>
+      <div class="mb-12 text-xs">Mes points : <strong>72</strong> 💵</div>
 
       <ul class="nav self-stretch text-xs">
         <li class="nav-item">
