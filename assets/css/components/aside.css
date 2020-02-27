@@ -1,0 +1,11 @@
+.aside {
+    @apply shadow-lg;
+    .active {
+        @apply font-semibold;
+        @apply border-r;  
+        @apply border-primary;      
+        .icon {
+            @apply text-primary;
+        }
+    }
+}

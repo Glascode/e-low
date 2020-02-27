@@ -1,5 +1,8 @@
 @import 'tailwindcss/base';
 
 @import 'tailwindcss/components';
+@import './components/aside.css';
+@import './components/icons.css';
+
 
 @import 'tailwindcss/utilities';
