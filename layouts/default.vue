@@ -41,7 +41,7 @@
 
 <script>
   import IconDashboard from '../components/icons/IconDashboard'
-  import IconShop from '../components/icons/Iconshop'
+  import IconShop from '../components/icons/IconShop'
   import IconToolbox from '../components/icons/IconToolbox'
   import IconSettings from '../components/icons/IconSettings'
 
