@@ -3,6 +3,7 @@
 
 @import 'tailwindcss/components';
 @import './components/aside.css';
+@import './components/bullets.css';
 @import './components/cards.css';
 @import './components/icons.css';
 @import './components/progress.css';

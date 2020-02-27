@@ -6,21 +6,7 @@
         <p>Félicitations ! Vous avez réduit votre consommation de 72.3 Mo cette semaine ! Vous avez donc gagné 7.2 💵</p>
       </Card>
 
-      <TrendChart
-          :datasets="[{
-            data: [10, 50, 20, 100, 40, 60, 80],
-            smooth: true,
-            fill: true
-          }]"
-          :grid="{
-             verticalLines: true,
-             horizontalLines: true
-          }"
-          :labels="{
-     xLabels: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'],
-      yLabels: 5
-      }"
-          :min="0" />
+      <CardChart class="bg-white mb-8"/>
 
       <Card class="bg-white">
         <h2 class="heading mb-4">Quelques chiffres</h2>
@@ -89,13 +75,14 @@
 </template>
 
 <script>
-  import TrendChart from 'vue-trend-chart'
   import Card from '../components/Card'
+  import CardChart from '../components/CardChart'
   import CardDetails from '../components/CardDetails'
 
   export default {
     components: {
       Card,
+      CardChart,
       CardDetails
     }
   }

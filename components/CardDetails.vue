@@ -4,7 +4,7 @@
 
     <div class="mb-6 font-bold">
       <div v-for="service in services"
-           class="flex items-center">
+           class="flex items-center mb-2">
         <div class="progress-bar w-1/2">
           <div class="progress"
                :class="[percentage(service.usage, service.baseUsage) < 50 ? 'bg-primary' :
@@ -17,19 +17,19 @@
 
     <div class="flex">
       <div class="mr-4 py-2 px-8 text-primary bg-primary-light rounded-lg">
-        <h2 class="heading">2.42 Go</h2>
+        <h2 class="heading">2.42&nbsp;Go</h2>
         <div>économisés</div>
       </div>
 
       <div class="flex flex-col justify-evenly font-bold">
         <div class="flex items-center">
-          <span class="w-2 h-2 bg-gray-300 rounded-full mr-2" /> Données théoriques
+          <span class="bullet bg-gray-300 mr-2" /> Données théoriques
         </div>
         <div class="flex items-center">
           <div class="flex items-center mr-2">
-            <span class="w-2 h-2 bg-primary rounded-full z-30" />
-            <span class="w-2 h-2 bg-orange-400 rounded-full -ml-1 z-20" />
-            <span class="w-2 h-2 bg-red-600 rounded-full -ml-1 zind-10" />
+            <span class="bullet bg-primary" />
+            <span class="bullet bg-orange-400" />
+            <span class="bullet bg-red-600" />
           </div> Données consommées
         </div>
       </div>
