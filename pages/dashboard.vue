@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-wrap -mx-4">
+  <div class="flex flex-wrap -mx-4 p-8">
     <div class="w-full xl:w-3/5 px-4">
       <Card class="mb-8 bg-primary-light">
         <h2 class="heading mb-4">Bienvenue Margot !</h2>

@@ -12,6 +12,5 @@
 @import './components/progress.css';
 @import './components/typography.css';
 
-
 @import 'tailwindcss/utilities';
 /* purgecss end ignore */
