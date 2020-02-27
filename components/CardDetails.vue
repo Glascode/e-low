@@ -49,7 +49,7 @@
 
     <div class="flex">
       <div class="mr-4 py-2 px-8 text-primary bg-primary-light rounded-lg">
-        <h2 class="heading">2.42&nbsp;Go</h2>
+        <h2 class="heading">5.67&nbsp;Go</h2>
         <div>économisés</div>
       </div>
 
