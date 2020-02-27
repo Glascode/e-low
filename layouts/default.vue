@@ -4,7 +4,7 @@
     <Aside @toggle:dark="toggleDark"/>
 
     <main class="bg-primary-extra-light overflow-auto z-10 dark:text-white dark:bg-dark-bg">
-      <Nuxt class="py-8 px-4" />
+      <Nuxt class="p-8" />
     </main>
   </div>
 </template>

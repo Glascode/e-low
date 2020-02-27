@@ -21,7 +21,7 @@
     <div class="mb-6 font-semibold">
       <div v-for="service in services"
            class="flex items-center mb-3">
-        <div class="progress-bar w-1/2">
+        <div class="progress-bar w-1/2 dark:bg-gray-700">
           <div class="progress"
                :class="[percentage(service.usage, service.baseUsage) < 50 ? 'bg-primary' :
                         percentage(service.usage, service.baseUsage) < 75 ? 'bg-orange-400' : 'bg-red-600']"
@@ -35,7 +35,7 @@
            class="card-details">
         <div v-for="service in services"
              class="flex items-center mb-3">
-          <div class="progress-bar w-1/2">
+          <div class="progress-bar w-1/2 dark:bg-gray-700">
             <div class="progress"
                  :class="[percentage(service.usage, service.baseUsage) < 50 ? 'bg-primary' :
                         percentage(service.usage, service.baseUsage) < 75 ? 'bg-orange-400' : 'bg-red-600']"

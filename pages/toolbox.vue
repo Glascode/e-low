@@ -1,8 +1,8 @@
 <template>
   <div>
     <div class="flex flex-wrap -mx-4 mb-8">
-      <div class="w-full lg:w-3/5 px-4">
-        <Card class="flex items-center mb-8 pr-4 bg-primary-light">
+      <div class="w-full xl:w-3/5 px-4">
+        <Card class="flex items-start mb-8 pr-4 bg-primary-light">
           <div class="flex-grow">
             <h2 class="heading mb-4">Bienvenue Margot !</h2>
             <p class="max-w-sm"><strong>Retrouvez des astuces et solutions pour vous aider au quotidien !</strong>
@@ -13,15 +13,15 @@
           </div>
         </Card>
 
-        <Card class="bg-white mb-8 lg:mb-0">
+        <Card class="bg-white mb-8 xl:mb-0">
           <h2 class="heading mb-4">S’informer</h2>
           <div class="flex items-center">
-            <img class="w-40 -ml-6"
+            <img class="w-40 -ml-6 mr-10"
                  src="/images/book.png"
                  alt="illustration d'un livre">
 
             <div>
-              <p class="ml-10 text-sm font-medium">Retrouvez différents documents et guides pour vous aider à
+              <p class="text-sm font-medium">Retrouvez différents documents et guides pour vous aider à
                 améliorer vos démarches quotidiennes.
                 Des guides pour vos pratiques numériques quotidiennes</p>
               <button class="bg-primary hover:bg-primary-dark text-white text-base font-bold mt-3 ml-10 py-2 px-3 rounded-xl inline-flex items-center">
@@ -36,7 +36,7 @@
         </Card>
       </div>
 
-      <div class="w-full lg:w-2/5 flex px-4">
+      <div class="w-full xl:w-2/5 flex px-4">
         <Card class="flex flex-col bg-primary-light">
           <h2 class="heading mb-4">Quiz ! </h2>
           <div class="flex-grow flex flex-col justify-evenly">
@@ -67,7 +67,7 @@
           <div class="flex items-center mt-6">
             <img class="mr-2" src="/images/feuilleOrange.svg" />
             <p class="max-w-lg ml-2 text-sm">
-              <span class="font-semibold">47% des émission de Gaz à effet de serre</span> produit par le numérique sont dues aux équipements des consommateurs (ordinateurs, smartphones, tablettes, objets connectés, GPS…)
+              <span class="font-semibold">47% des émissions de gaz à effet de serre</span> produit par le numérique sont dues aux équipements des consommateurs (ordinateurs, smartphones, tablettes, objets connectés, GPS…)
             </p>
           </div>
           <div class="flex items-center mt-6">
