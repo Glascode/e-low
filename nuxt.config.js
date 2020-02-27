@@ -32,6 +32,7 @@ module.exports = {
       plugins: {
         'postcss-import': {},
         'tailwindcss': {},
+        // 'tailwindcss-dark-mode': {},
         'postcss-nested': {},
         'autoprefixer': {}
       }

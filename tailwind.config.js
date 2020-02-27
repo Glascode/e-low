@@ -14,6 +14,10 @@ module.exports = {
       }
     }
   },
-  variants: {},
+  variants: {
+    // backgroundColor: ['dark'],
+    // borderColor: ['dark'],
+    // textColor: ['dark']
+  },
   plugins: []
 }
