@@ -1,7 +1,7 @@
 <template>
   <div>
-    <Card>
-      <h2 class="mb-4">Bienvenue Margot !</h2>
+    <Card class="bg-primary-light">
+      <h2 class="card-title mb-4">Bienvenue Margot !</h2>
       <p>Félicitations ! Vous avez réduit votre consommation de 72.3 Mo cette semaine ! Vous avez donc gagné 7.2 💵</p>
     </Card>
   </div>
