@@ -1,0 +1,27 @@
+.chart {
+  height: 12rem;
+}
+
+.chart-theoretical {
+  .stroke {
+    stroke: theme('colors.red.500');
+    stroke-width: 2;
+  }
+
+  .fill {
+    fill: url(#theoreticalFill);
+    fill-opacity: 0.5;
+  }
+}
+
+.chart-actual {
+  .stroke {
+    stroke: #26a69a;
+    stroke-width: 2;
+  }
+
+  .fill {
+    fill: url(#actualFill);
+    fill-opacity: 0.5;
+  }
+}

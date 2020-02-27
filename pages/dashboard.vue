@@ -17,7 +17,7 @@
               <div class="text-primary">e-mails envoyés</div>
             </div>
             <div class="mb-3">depuis le 01/01/2020</div>
-            <p>Ce qui équivaut à une consommation de 15 allers-retours Paris-New York !</p>
+            <p>Ce qui équivaut à une consommation de <span class="font-semibold">1 aller-retour en avion Paris-Berlin !</span></p>
           </div>
 
           <div class="w-full md:w-1/3 flex flex-col items-center px-2">
@@ -26,7 +26,7 @@
               <div class="text-primary">e-mails envoyés</div>
             </div>
             <div class="mb-3">depuis le 01/01/2020</div>
-            <p>Ce qui équivaut à une consommation de 15 allers-retours Paris-New York !</p>
+            <p>Ce qui équivaut à une consommation de <span class="font-semibold">30 douches par jour</span></p>
           </div>
 
           <div class="w-full md:w-1/3 flex flex-col items-center px-2">
@@ -35,7 +35,7 @@
               <div class="text-primary">e-mails envoyés</div>
             </div>
             <div class="mb-3">depuis le 01/01/2020</div>
-            <p>Ce qui équivaut à une consommation de 15 allers-retours Paris-New York !</p>
+            <p>Ce qui équivaut à une consommation de <span class="font-semibold">20 trajets en voiture Paris-Bruxelles</span></p>
           </div>
         </div>
       </Card>
@@ -45,7 +45,7 @@
 
       <Card class="mb-8 bg-primary-light">
         <h2 class="heading mb-4">Vous y êtes presque !</h2>
-        <p class="mb-4">Economisez encore 279.5mo afin de devenir 4ème meilleur réducteur de pollution numérique chez CDiscount !</p>
+        <p class="mb-4">Économisez encore 279.5mo afin de devenir 4ème meilleur réducteur de pollution numérique chez CDiscount !</p>
         <p>Allez, encore un effort ! 🚀</p>
       </Card>
 
