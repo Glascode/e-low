@@ -38,7 +38,7 @@
 
       <div class="w-full lg:w-2/5 flex px-4">
         <Card class="flex flex-col bg-primary-light">
-          <h2 class="heading mb-4">Quizz ! </h2>
+          <h2 class="heading mb-4">Quiz ! </h2>
           <div class="flex-grow flex flex-col justify-evenly">
             <p class="text-center text-base">Regarder une heure de vidéo en streaming sur son téléphone portable consomme t’il autant qu'un frigidaire pendant un an ? </p>
             <div class="flex justify-center">
