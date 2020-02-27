@@ -12,7 +12,7 @@ module.exports = {
       { hid: 'description', name: 'description', content: 'E-low' }
     ],
     link: [
-      { rel: 'icon', type: 'image/png', href: '/favicon.png' }
+      { rel: 'icon', type: 'image/png', href: '/icon.png' }
     ]
   },
   /*

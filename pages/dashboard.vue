@@ -8,7 +8,7 @@
 
       <CardChart class="bg-white mb-8"/>
 
-      <Card class="bg-white">
+      <Card class="bg-white mb-8 lg:mb-0">
         <h2 class="heading mb-4">Quelques chiffres</h2>
         <div class="flex justify-between -mx-2">
           <div class="w-full md:w-1/3 flex flex-col items-center px-2">
