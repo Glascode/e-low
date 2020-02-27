@@ -2,7 +2,7 @@
   <Card class="mb-8 py-8 px-12 bg-white">
     <h2 class="heading mb-4">Détails conso.</h2>
 
-    <div class="mb-4 font-bold">
+    <div class="mb-6 font-bold">
       <div v-for="service in services"
            class="flex items-center">
         <div class="progress-bar w-1/2">
