@@ -39,28 +39,19 @@
       </Card>
     </div>
     <div class="w-full md:w-2/5 px-4">
-      <Card class="mb-8 py-8 px-12 bg-white">
-        <h2 class="heading mb-2">Détails conso.</h2>
-
-        <div class="font-bold">
-          <div class="flex items-center">
-            <div class="progress-bar w-1/2">
-              <div class="progress bg-primary" style="width: 3.1%;"></div>
-            </div>
-            <div class="w-1/2 ml-2">Youtube – 819Mo <span>/ 5.24 Go</span></div>
-          </div>
-        </div>
-      </Card>
+      <ConsumptionDetailsCard />
     </div>
   </div>
 </template>
 
 <script>
   import Card from '../components/Card'
+  import ConsumptionDetailsCard from '../components/ConsumptionDetailsCard'
 
   export default {
     components: {
-      Card
+      Card,
+      ConsumptionDetailsCard
     }
   }
 </script>
