@@ -1,6 +1,6 @@
 <template>
   <div class="flex flex-wrap">
-    <div class="w-full md:w-3/5 px-4">
+    <div class="w-full lg:w-3/5 px-4">
       <Card class="mb-8 bg-primary-light">
         <h2 class="heading mb-4">Bienvenue Margot !</h2>
         <p>Félicitations ! Vous avez réduit votre consommation de 72.3 Mo cette semaine ! Vous avez donc gagné 7.2 💵</p>
@@ -38,13 +38,33 @@
         </div>
       </Card>
     </div>
-    <div class="w-full md:w-2/5 px-4">
+    <div class="w-full lg:w-2/5 px-4">
       <CardDetails />
 
       <Card class="mb-8 bg-primary-light">
         <h2 class="heading mb-4">Vous y êtes presque !</h2>
         <p class="mb-4">Economisez encore 279.5mo afin de devenir 4ème meilleur réducteur de pollution numérique chez CDiscount !</p>
         <p>Allez, encore un effort ! 🚀</p>
+      </Card>
+
+      <Card class="bg-white">
+        <h2 class="heading mb-4">Statistiques d'entreprise</h2>
+
+        <div class="flex items-start mb-4">
+          <div class="flex-shrink-0 mr-4 p-2 text-primary bg-primary-light rounded-lg">
+            <h2 class="heading">1011 Go</h2>
+          </div>
+          <p class="font-medium">C’est l’économie totale réalisée par l’entreprise, <span class="text-primary">17.2&nbsp;%</span> de mieux qu’en 2019</p>
+        </div>
+
+        <div class="flex items-start mb-6">
+          <div class="flex-shrink-0 mr-4 p-2 text-primary bg-primary-light rounded-lg">
+            <h2 class="heading">19,3 Go</h2>
+          </div>
+          <p class="font-medium">C’est l’économie réalisée en moyenne par personne, <span class="text-primary">8.9&nbsp;%</span> de mieux qu’en 2019</p>
+        </div>
+
+        <p class="font-medium text-center">Ensemble, réduisons la pollution numérique 🌎</p>
       </Card>
     </div>
   </div>

@@ -1,11 +1,22 @@
 .aside {
-    @apply shadow-lg;
-    .active {
-        @apply font-semibold;
-        @apply border-r;  
-        @apply border-primary;      
-        .icon {
-            @apply text-primary;
-        }
+  @apply shadow-md;
+}
+
+.nav {
+  .nav-item:not(first-child) {
+    @apply mt-8;
+  }
+
+  .nav-link {
+    @apply flex items-center py-2 px-12;
+
+    &.active {
+      @apply font-semibold;
+      @apply border-r-2 border-primary;
+
+      .icon {
+        @apply text-primary;
+      }
     }
+  }
 }
