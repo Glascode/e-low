@@ -1,5 +1,5 @@
 <template>
-  <div class="card text-xs rounded-xl shadow-md">
+  <div class="card">
     <slot />
   </div>
 </template>

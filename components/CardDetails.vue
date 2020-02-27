@@ -1,5 +1,5 @@
 <template>
-  <Card class="mb-8 py-8 px-12 bg-white">
+  <Card class="mb-8 bg-white">
     <h2 class="heading mb-4">Détails conso.</h2>
 
     <div class="mb-6 font-bold">
