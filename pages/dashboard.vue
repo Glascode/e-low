@@ -6,6 +6,22 @@
         <p>Félicitations ! Vous avez réduit votre consommation de 72.3 Mo cette semaine ! Vous avez donc gagné 7.2 💵</p>
       </Card>
 
+      <TrendChart
+          :datasets="[{
+            data: [10, 50, 20, 100, 40, 60, 80],
+            smooth: true,
+            fill: true
+          }]"
+          :grid="{
+             verticalLines: true,
+             horizontalLines: true
+          }"
+          :labels="{
+     xLabels: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'],
+      yLabels: 5
+      }"
+          :min="0" />
+
       <Card class="bg-white">
         <h2 class="heading mb-4">Quelques chiffres</h2>
         <div class="flex justify-between -mx-2">
@@ -54,14 +70,16 @@
           <div class="flex-shrink-0 mr-4 p-2 text-primary bg-primary-light rounded-lg">
             <h2 class="heading">1011 Go</h2>
           </div>
-          <p class="font-medium">C’est l’économie totale réalisée par l’entreprise, <span class="text-primary">17.2&nbsp;%</span> de mieux qu’en 2019</p>
+          <p class="font-medium">C’est l’économie totale réalisée par l’entreprise,
+            <span class="text-primary">17.2&nbsp;%</span> de mieux qu’en 2019</p>
         </div>
 
         <div class="flex items-start mb-6">
           <div class="flex-shrink-0 mr-4 p-2 text-primary bg-primary-light rounded-lg">
             <h2 class="heading">19,3 Go</h2>
           </div>
-          <p class="font-medium">C’est l’économie réalisée en moyenne par personne, <span class="text-primary">8.9&nbsp;%</span> de mieux qu’en 2019</p>
+          <p class="font-medium">C’est l’économie réalisée en moyenne par personne,
+            <span class="text-primary">8.9&nbsp;%</span> de mieux qu’en 2019</p>
         </div>
 
         <p class="font-medium text-center">Ensemble, réduisons la pollution numérique 🌎</p>
@@ -71,6 +89,7 @@
 </template>
 
 <script>
+  import TrendChart from 'vue-trend-chart'
   import Card from '../components/Card'
   import CardDetails from '../components/CardDetails'
 
