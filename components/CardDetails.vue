@@ -2,7 +2,7 @@
   <Card class="mb-8 py-8 px-12 bg-white">
     <h2 class="heading mb-2">Détails conso.</h2>
 
-    <div class="font-bold">
+    <div class="mb-4 font-bold">
       <div v-for="service in services"
            class="flex items-center">
         <div class="progress-bar w-1/2">
@@ -12,6 +12,13 @@
                :style="{width: percentage(service.usage, service.baseUsage) + '%'}"></div>
         </div>
         <div class="w-1/2 ml-2">{{ service.name }} – {{ service.usage }} <span>/  {{ service.baseUsage }}</span></div>
+      </div>
+    </div>
+
+    <div class="flex">
+      <div class="py-2 px-8 text-primary bg-primary-light rounded-lg">
+        <h2 class="heading">2.42 Go</h2>
+        <div>économisés</div>
       </div>
     </div>
   </Card>

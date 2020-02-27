@@ -39,19 +39,19 @@
       </Card>
     </div>
     <div class="w-full md:w-2/5 px-4">
-      <ConsumptionDetailsCard />
+      <CardDetails />
     </div>
   </div>
 </template>
 
 <script>
   import Card from '../components/Card'
-  import ConsumptionDetailsCard from '../components/ConsumptionDetailsCard'
+  import CardDetails from '../components/CardDetails'
 
   export default {
     components: {
       Card,
-      ConsumptionDetailsCard
+      CardDetails
     }
   }
 </script>
