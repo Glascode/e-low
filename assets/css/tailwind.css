@@ -1,17 +1,12 @@
-/* purgecss start ignore */
 @import 'tailwindcss/base';
 @import './base/base.css';
 @import './base/fonts.css';
 
 @import 'tailwindcss/components';
 @import './components/aside.css';
-@import './components/bullets.css';
 @import './components/cards.css';
-@import './components/charts.css';
 @import './components/icons.css';
 @import './components/progress.css';
 @import './components/typography.css';
 
-
 @import 'tailwindcss/utilities';
-/* purgecss end ignore */
