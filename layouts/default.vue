@@ -15,8 +15,8 @@
         </ul>      
   
     </div>
-    <main class="bg-primary-extra-light">
-      <Nuxt />
+    <main>
+      <Nuxt class="py-8 px-4" />
     </main>
   </div>
 </template>

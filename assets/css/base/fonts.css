@@ -1,0 +1,20 @@
+@font-face {
+    font-family: Axiforma;
+    font-weight: 400;
+    src: url('/fonts/Axiforma-Regular.woff2') format('woff2');
+  }
+  @font-face {
+    font-family: Axiforma;
+    font-weight: 500;
+    src: url('/fonts/Axiforma-Medium.woff2') format('woff2');
+  }
+  @font-face {
+    font-family: Axiforma;
+    font-weight: 600;
+    src: url('/fonts/Axiforma-SemiBold.woff2') format('woff2');
+  }
+  @font-face {
+    font-family: Axiforma;
+    font-weight: 700;
+    src: url('/fonts/Axiforma-Bold.woff2') format('woff2');
+  }
