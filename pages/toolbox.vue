@@ -24,7 +24,7 @@
               <p class="text-sm font-medium">Retrouvez différents documents et guides pour vous aider à
                 améliorer vos démarches quotidiennes.
                 Des guides pour vos pratiques numériques quotidiennes</p>
-              <button class="bg-primary hover:bg-primary-dark text-white text-base font-bold mt-3 ml-10 py-2 px-3 rounded-xl inline-flex items-center">
+              <button class="btn inline-flex items-center mt-3 ml-10">
                 <svg class="fill-current w-4 h-4 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
                   <path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z" />
                 </svg>
@@ -40,14 +40,10 @@
         <Card class="flex flex-col bg-primary-light">
           <h2 class="heading mb-4">Quiz ! </h2>
           <div class="flex-grow flex flex-col justify-evenly">
-            <p class="text-center text-base">Regarder une heure de vidéo en streaming sur son téléphone portable consomme t’il autant qu'un frigidaire pendant un an ? </p>
+            <p class="text-center text-base mb-10">Regarder une heure de vidéo en streaming sur son téléphone portable consomme t’il autant qu'un frigidaire pendant un an ? </p>
             <div class="flex justify-center">
-              <button class="justify-center w-32 bg-primary hover:bg-primary-dark text-white text-base font-bold mt-3 py-2 px-3 rounded-xl inline-flex items-center">
-                Faux
-              </button>
-              <button class="justify-center w-32 bg-primary hover:bg-primary-dark text-white text-base font-bold mt-3 ml-10 py-2 px-3 rounded-xl inline-flex items-center">
-                Vrai
-              </button>
+              <button class="btn w-32 mr-4">Faux</button>
+              <button class="btn w-32">Vrai</button>
             </div>
           </div>
 
