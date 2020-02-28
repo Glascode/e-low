@@ -18,9 +18,11 @@
         <h2 class="heading mb-4">Quelques chiffres</h2>
         <div class="flex justify-between -mx-2">
           <div class="w-full md:w-1/3 flex flex-col items-center px-2">
-            <div class="mb-2 py-4 px-6 text-center bg-primary-light rounded-lg dark:bg-dark-bg">
+            <div class="relative mb-2 py-4 px-6 text-center bg-primary-light rounded-lg dark:bg-dark-bg">
               <h3 class="heading">573</h3>
               <div class="text-primary">e-mails envoyés</div>
+
+              <div class="absolute -top-2 -right-2 flex items-center justify-center w-6 h-6 text-white bg-primary rounded-full">?</div>
             </div>
             <div class="mb-3">depuis le 01/01/2020</div>
             <p>Ce qui équivaut à une consommation de
@@ -28,18 +30,22 @@
           </div>
 
           <div class="w-full md:w-1/3 flex flex-col items-center px-2">
-            <div class="mb-2 py-4 px-6 text-center bg-primary-light rounded-lg dark:bg-dark-bg">
+            <div class="relative mb-2 py-4 px-6 text-center bg-primary-light rounded-lg dark:bg-dark-bg">
               <h3 class="heading">1024</h3>
               <div class="text-primary">messages instantanés</div>
+
+              <div class="absolute -top-2 -right-2 flex items-center justify-center w-6 h-6 text-white bg-primary rounded-full">?</div>
             </div>
             <div class="mb-3">depuis le 01/01/2020</div>
             <p>Ce qui équivaut à une consommation de <span class="font-semibold">30 douches par jour</span></p>
           </div>
 
           <div class="w-full md:w-1/3 flex flex-col items-center px-2">
-            <div class="mb-2 py-4 px-6 text-center bg-primary-light rounded-lg dark:bg-dark-bg">
+            <div class="relative mb-2 py-4 px-6 text-center bg-primary-light rounded-lg dark:bg-dark-bg">
               <h3 class="heading">90&nbsp;h</h3>
               <div class="text-primary">d'écran de veille</div>
+
+              <div class="absolute -top-2 -right-2 flex items-center justify-center w-6 h-6 text-white bg-primary rounded-full">?</div>
             </div>
             <div class="mb-3">depuis le 01/01/2020</div>
             <p>Ce qui équivaut à une consommation de

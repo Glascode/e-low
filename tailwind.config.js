@@ -3,6 +3,9 @@ const plugin = require('tailwindcss/plugin')
 module.exports = {
   theme: {
     extend: {
+      inset: {
+        '-2': '-.5rem'
+      },
       colors: {
         primary: '#26a69a',
         'primary-light': '#ebfff7',
