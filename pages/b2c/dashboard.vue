@@ -5,23 +5,26 @@
         <div class="flex-grow pb-2">
           <h2 class="heading mb-4">Bienvenue Margot !</h2>
           <p>Félicitations ! Vous avez réduit votre consommation de
-            <span class="font-semibold">72.3 Mo</span> cette semaine ! <span class="font-semibold">Vous avez donc gagné 7.2 💵</span></p>
+            <span class="font-semibold">72.3 Mo</span> cette semaine !
+            <span class="font-semibold">Vous avez donc gagné 7.2 💵</span></p>
         </div>
         <div class="-my-8">
           <img class="w-64" src="/images/welcome_dashboard_woman.png" />
         </div>
       </Card>
 
-      <CardChart class="bg-white mb-8" />
+      <CardChart class="mb-8" />
 
       <Card class="bg-white mb-8 lg:mb-0">
         <h2 class="heading mb-4">Mes offres</h2>
         <Card class="flex flex-wrap items-center p-4 bg-white mb-8 dark:bg-dark-bg">
-          <div class="w-full lg:w-1/3">
+          <div class="w-full lg:w-1/3 mb-4 lg:mb-0">
             <img class="w-40 mx-auto dark:invert" src="/images/logo_backmarket.png" />
           </div>
-          <p class="w-full lg:w-1/3 flex items-center justify-center">
-            <span class="text-lg font-semibold mr-2">5€</span> (500 points) </p>
+
+          <p class="w-full lg:w-1/3 flex items-center justify-center mb-4 lg:mb-0">
+            <span class="text-lg font-semibold mr-2">5€</span> (500 points)</p>
+
           <div class="w-full lg:w-1/3">
             <button class="btn block mx-auto lg:w-full">J’en profite&nbsp;!
             </button>
@@ -29,11 +32,13 @@
         </Card>
 
         <Card class="flex flex-wrap items-center p-4 bg-white dark:bg-dark-bg">
-          <div class="w-full lg:w-1/3">
+          <div class="w-full lg:w-1/3 mb-4 lg:mb-0">
             <img class="w-40 mx-auto dark:invert" src="/images/logo_sloweare.png" />
           </div>
-          <p class="w-full lg:w-1/3 flex items-center justify-center">
-            <span class="text-lg font-semibold mr-2">5€</span> (500 points) </p>
+
+          <p class="w-full lg:w-1/3 flex items-center justify-center mb-4 lg:mb-0">
+            <span class="text-lg font-semibold mr-2">5€</span> (500 points)</p>
+
           <div class="w-full lg:w-1/3">
             <button class="btn block mx-auto lg:w-full">J’en profite&nbsp;!
             </button>

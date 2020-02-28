@@ -12,7 +12,7 @@
         </div>
       </Card>
 
-      <CardChart class="bg-white mb-8" />
+      <CardChart class="mb-8" />
 
       <Card class="bg-white mb-8 xl:mb-0">
         <h2 class="heading mb-4">Quelques chiffres</h2>

@@ -1,5 +1,5 @@
 <template>
-  <Card class="mb-8 bg-white">
+  <Card class="bg-white">
     <div class="flex flex-wrap items-center justify-between mb-4">
       <h2 class="heading mr-2">Consommation</h2>
 
