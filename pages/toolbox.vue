@@ -2,13 +2,13 @@
   <div>
     <div class="flex flex-wrap -mx-4 mb-8">
       <div class="w-full xl:w-3/5 px-4">
-        <Card class="flex items-start mb-8 pr-4 bg-primary-light">
-          <div class="flex-grow">
+        <Card class="flex items-start mb-8 pb-0 pr-4 bg-primary-light">
+          <div class="flex-grow pb-8">
             <h2 class="heading mb-4">Bienvenue Margot !</h2>
             <p class="max-w-sm"><strong>Retrouvez des astuces et solutions pour vous aider au quotidien !</strong>
               Ensemble, réduisons la pollution 🌎</p>
           </div>
-          <div>
+          <div class="self-end -mb-3">
             <img src="/images/dame.svg" />
           </div>
         </Card>
