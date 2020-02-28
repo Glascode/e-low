@@ -15,11 +15,10 @@
 
         <Card class="bg-white mb-8 xl:mb-0">
           <h2 class="heading mb-4">S’informer</h2>
+
           <div class="flex items-center">
             <img class="w-40 -ml-6 mr-10"
-                 src="/images/book.png"
-                 alt="illustration d'un livre">
-
+                 src="/images/book.png">
             <div>
               <p class="text-sm font-medium">Retrouvez différents documents et guides pour vous aider à
                 améliorer vos démarches quotidiennes.
@@ -32,7 +31,6 @@
               </button>
             </div>
           </div>
-
         </Card>
       </div>
 
@@ -41,21 +39,21 @@
           <h2 class="heading mb-4">Quiz ! </h2>
           <div class="flex-grow flex flex-col justify-evenly">
             <p class="text-center text-base mb-10">Regarder une heure de vidéo en streaming sur son téléphone portable consomme t’il autant qu'un frigidaire pendant un an ?</p>
+
             <div class="flex justify-center">
               <button class="btn w-32 mr-4">Faux</button>
               <button class="btn w-32">Vrai</button>
             </div>
           </div>
-
         </Card>
       </div>
     </div>
 
     <Card class="pr-0 bg-white overflow-hidden">
-      <h2 class="heading mb-4">Le saviez-vous ?</h2>
-
       <div class="flex">
         <div class="flex flex-col flex-grow">
+          <h2 class="heading mb-4">Le saviez-vous ?</h2>
+
           <div class="flex items-center mt-6">
             <img class="mr-2" src="/images/feuilleRouge.svg" />
             <p class="max-w-lg ml-2 text-sm font-semibold">Un envoi de mail provoque une émission de CO2 entre 4g et 50g. 60% des mails restent non lus. </p>
@@ -89,8 +87,8 @@
 
         </div>
 
-        <div class="-mr-3 self-end">
-          <img src="/images/lecture.svg" />
+        <div class="-mr-3 self-start">
+          <img style="width: 24rem" src="/images/lecture.svg" />
         </div>
       </div>
     </Card>

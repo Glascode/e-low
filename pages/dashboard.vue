@@ -48,8 +48,10 @@
 
       <Card class="mb-8 bg-primary-light">
         <h2 class="heading mb-4">Vous y êtes presque !</h2>
-        <p class="mb-4">Économisez encore 279.5mo afin de devenir 4ème meilleur réducteur de pollution numérique chez CDiscount !</p>
-        <p>Allez, encore un effort ! 🚀</p>
+        <p class="mb-4">Économisez encore
+          <span class="font-semibold">279.5&nbsp;Mo</span> afin de devenir 4ème meilleur réducteur de pollution numérique chez
+          <span class="font-semibold">CDiscount</span>&nbsp;!</p>
+        <p class="font-semibold">Allez, encore un effort ! 🚀</p>
       </Card>
 
       <Card class="bg-white">
@@ -71,7 +73,7 @@
             <span class="text-primary">8.9&nbsp;%</span> de mieux qu’en 2019</p>
         </div>
 
-        <p class="font-medium text-center">Ensemble, réduisons la pollution numérique 🌎</p>
+        <p class="font-semibold text-center">Ensemble, réduisons la pollution numérique 🌎</p>
       </Card>
     </div>
   </div>
