@@ -40,7 +40,7 @@
         <Card class="flex flex-col bg-primary-light">
           <h2 class="heading mb-4">Quiz ! </h2>
           <div class="flex-grow flex flex-col justify-evenly">
-            <p class="text-center text-base mb-10">Regarder une heure de vidéo en streaming sur son téléphone portable consomme t’il autant qu'un frigidaire pendant un an ? </p>
+            <p class="text-center text-base mb-10">Regarder une heure de vidéo en streaming sur son téléphone portable consomme t’il autant qu'un frigidaire pendant un an ?</p>
             <div class="flex justify-center">
               <button class="btn w-32 mr-4">Faux</button>
               <button class="btn w-32">Vrai</button>
