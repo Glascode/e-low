@@ -1,10 +1,15 @@
 <template>
   <div class="flex flex-wrap -mx-4 p-8">
     <div class="w-full xl:w-3/5 px-4">
-      <Card class="mb-8 bg-primary-light">
-        <h2 class="heading mb-4">Bienvenue Margot !</h2>
-        <p>Félicitations ! Vous avez réduit votre consommation de
-          <span class="font-semibold">72.3 Mo</span> cette semaine ! Vous avez donc gagné 7.2 💵</p>
+      <Card class="flex items-center mb-8 bg-primary-light">
+        <div class="flex-grow pb-2">
+          <h2 class="heading mb-4">Bienvenue Margot !</h2>
+          <p>Félicitations ! Vous avez réduit votre consommation de
+            <span class="font-semibold">72.3 Mo</span> cette semaine ! Vous avez donc gagné 7.2 💵</p>
+        </div>
+        <div class="-my-8">
+          <img class="w-64" src="/images/welcome_dashboard_woman.png" />
+        </div>
       </Card>
 
       <CardChart class="bg-white mb-8" />
