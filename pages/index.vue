@@ -8,7 +8,7 @@
     <div class="flex items-center justify-between">
       <nuxt-link class="btn w-32" to="/dashboard">B2B</nuxt-link>
       <nuxt-link class="btn w-32" to="/b2c/dashboard">B2C</nuxt-link>
-      <nuxt-link class="btn w-32" to="/">Admin</nuxt-link>
+      <nuxt-link class="btn w-32" to="/dashboard">Admin</nuxt-link>
     </div>
   </Card>
 </template>

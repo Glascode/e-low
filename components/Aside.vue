@@ -19,7 +19,7 @@
       <li class="nav-item">
         <nuxt-link class="nav-link" to="/offers">
           <IconShop class="mr-5" />
-          Boutique</nuxt-link>
+          Mes offres</nuxt-link>
       </li>
       <li class="nav-item">
         <nuxt-link class="nav-link" to="/toolbox">
