@@ -15,7 +15,7 @@
       </div>
     </div>
 
-    <div>
+    <div class="mb-4">
       <svg style="width:0; height:0; position:absolute;" aria-hidden="true" focusable="false">
         <defs>
           <linearGradient id="theoreticalFill" x1="1" x2="1" y1="0" y2="1">
@@ -34,6 +34,15 @@
           :grid="{ verticalLines: true, horizontalLines: true }"
           :labels="labels"
           :min="0" />
+    </div>
+
+    <div class="flex justify-end">
+      <div class="flex items-center mr-4">
+        <span class="bullet bg-red-500 mr-1" /> Données théoriques
+      </div>
+      <div class="flex items-center">
+        <span class="bullet bg-primary mr-1" /> Données consommées
+      </div>
     </div>
   </Card>
 </template>
@@ -70,7 +79,7 @@
               }
             ],
             labels: {
-              xLabels: ['00', '06', '12', '18', '24'],
+              xLabels: ['00 h', '06 h', '12 h', '18 h', '24 h'],
               yLabels: 5,
               yLabelsTextFormatter: val => Math.round(val * 10) / 10 + ' Go'
             }
