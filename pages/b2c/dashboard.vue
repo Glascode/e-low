@@ -11,9 +11,9 @@
 
       <Card class="bg-white mb-8 lg:mb-0">
         <h2 class="heading mb-4">Mes offres</h2>
-        <Card class="flex flex-wrap items-center p-4 bg-white mb-8">
+        <Card class="flex flex-wrap items-center p-4 bg-white mb-8 dark:bg-dark-bg">
           <div class="w-full lg:w-1/3">
-            <img class="w-40 mx-auto" src="/images/logo_backmarket.png" />
+            <img class="w-40 mx-auto dark:invert" src="/images/logo_backmarket.png" />
           </div>
           <p class="w-full lg:w-1/3 flex items-center justify-center">
             <span class="text-lg font-semibold mr-2">5€</span> (500 points) </p>
@@ -23,9 +23,9 @@
           </div>
         </Card>
 
-        <Card class="flex flex-wrap items-center p-4 bg-white">
+        <Card class="flex flex-wrap items-center p-4 bg-white dark:bg-dark-bg">
           <div class="w-full lg:w-1/3">
-            <img class="w-40 mx-auto" src="/images/logo_sloweare.png" />
+            <img class="w-40 mx-auto dark:invert" src="/images/logo_sloweare.png" />
           </div>
           <p class="w-full lg:w-1/3 flex items-center justify-center">
             <span class="text-lg font-semibold mr-2">5€</span> (500 points) </p>
