@@ -5,7 +5,7 @@
         <div class="flex-grow pb-2">
           <h2 class="heading mb-4">Bienvenue Margot !</h2>
           <p>Félicitations ! Vous avez réduit votre consommation de
-            <span class="font-semibold">72.3 Mo</span> cette semaine ! Vous avez donc gagné 7.2 💵</p>
+            <span class="font-semibold">72.3 Mo</span> cette semaine ! <span class="font-semibold">Vous avez donc gagné 7.2 💵</span></p>
         </div>
         <div class="-my-8">
           <img class="w-64" src="/images/welcome_dashboard_woman.png" />
@@ -23,7 +23,7 @@
           <p class="w-full lg:w-1/3 flex items-center justify-center">
             <span class="text-lg font-semibold mr-2">5€</span> (500 points) </p>
           <div class="w-full lg:w-1/3">
-            <button class="block mx-auto lg:w-full bg-primary hover:bg-primary-dark text-white text-base font-bold py-2 px-4 rounded-xl">J’en profite&nbsp;!
+            <button class="btn block mx-auto lg:w-full">J’en profite&nbsp;!
             </button>
           </div>
         </Card>
@@ -35,7 +35,7 @@
           <p class="w-full lg:w-1/3 flex items-center justify-center">
             <span class="text-lg font-semibold mr-2">5€</span> (500 points) </p>
           <div class="w-full lg:w-1/3">
-            <button class="block mx-auto lg:w-full bg-primary hover:bg-primary-dark text-white text-base font-bold py-2 px-4 rounded-xl">J’en profite&nbsp;!
+            <button class="btn block mx-auto lg:w-full">J’en profite&nbsp;!
             </button>
           </div>
         </Card>

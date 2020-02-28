@@ -5,7 +5,7 @@
         <div class="flex-grow pb-2">
           <h2 class="heading mb-4">Bienvenue Margot !</h2>
           <p>Félicitations ! Vous avez réduit votre consommation de
-            <span class="font-semibold">72.3 Mo</span> cette semaine ! Vous avez donc gagné 7.2 💵</p>
+            <span class="font-semibold">72.3 Mo</span> cette semaine ! <span class="font-semibold">Vous avez donc gagné 7.2 💵</span></p>
         </div>
         <div class="-my-8">
           <img class="w-64" src="/images/welcome_dashboard_woman.png" />
