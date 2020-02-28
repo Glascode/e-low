@@ -9,69 +9,72 @@
 
       <CardChart class="bg-white mb-8" />
 
-      <Card class="bg-white mb-8 xl:mb-0">
-        <h2 class="heading mb-4">Quelques chiffres</h2>
-        <div class="flex justify-between -mx-2">
-          <div class="w-full md:w-1/3 flex flex-col items-center px-2">
-            <div class="mb-2 py-4 px-6 text-center bg-primary-light rounded-lg dark:bg-dark-bg">
-              <h3 class="heading">573</h3>
-              <div class="text-primary">e-mails envoyés</div>
-            </div>
-            <div class="mb-3">depuis le 01/01/2020</div>
-            <p>Ce qui équivaut à une consommation de
-              <span class="font-semibold">1 aller-retour en avion Paris-Berlin !</span></p>
+      <Card class="bg-white mb-8 lg:mb-0">
+        <h2 class="heading mb-4">Mes offres</h2>
+        <Card class="flex flex-wrap items-center p-4 bg-white mb-8">
+          <div class="w-full lg:w-1/3">
+            <img class="w-40 mx-auto" src="/images/logo_backmarket.png" />
           </div>
+          <p class="w-full lg:w-1/3 flex items-center justify-center">
+            <span class="text-lg font-semibold mr-2">5€</span> (500 points) </p>
+          <div class="w-full lg:w-1/3">
+            <button class="block mx-auto lg:w-full bg-primary hover:bg-primary-dark text-white text-base font-bold py-2 px-4 rounded-xl">J’en profite&nbsp;!
+            </button>
+          </div>
+        </Card>
 
-          <div class="w-full md:w-1/3 flex flex-col items-center px-2">
-            <div class="mb-2 py-4 px-6 text-center bg-primary-light rounded-lg dark:bg-dark-bg">
-              <h3 class="heading">1024</h3>
-              <div class="text-primary">messages instantanés</div>
-            </div>
-            <div class="mb-3">depuis le 01/01/2020</div>
-            <p>Ce qui équivaut à une consommation de <span class="font-semibold">30 douches par jour</span></p>
+        <Card class="flex flex-wrap items-center p-4 bg-white">
+          <div class="w-full lg:w-1/3">
+            <img class="w-40 mx-auto" src="/images/logo_sloweare.png" />
           </div>
-
-          <div class="w-full md:w-1/3 flex flex-col items-center px-2">
-            <div class="mb-2 py-4 px-6 text-center bg-primary-light rounded-lg dark:bg-dark-bg">
-              <h3 class="heading">90&nbsp;h</h3>
-              <div class="text-primary">d'écran de veille</div>
-            </div>
-            <div class="mb-3">depuis le 01/01/2020</div>
-            <p>Ce qui équivaut à une consommation de
-              <span class="font-semibold">20 trajets en voiture Paris-Bruxelles</span></p>
+          <p class="w-full lg:w-1/3 flex items-center justify-center">
+            <span class="text-lg font-semibold mr-2">5€</span> (500 points) </p>
+          <div class="w-full lg:w-1/3">
+            <button class="block mx-auto lg:w-full bg-primary hover:bg-primary-dark text-white text-base font-bold py-2 px-4 rounded-xl">J’en profite&nbsp;!
+            </button>
           </div>
-        </div>
+        </Card>
       </Card>
     </div>
+
     <div class="w-full xl:w-2/5 px-4">
       <CardDetails />
 
-      <Card class="mb-8 bg-primary-light">
-        <h2 class="heading mb-4">Vous y êtes presque !</h2>
-        <p class="mb-4">Économisez encore 279.5mo afin de devenir 4ème meilleur réducteur de pollution numérique chez CDiscount !</p>
-        <p>Allez, encore un effort ! 🚀</p>
-      </Card>
-
-      <Card class="bg-white">
-        <h2 class="heading mb-4">Statistiques d'entreprise</h2>
-
-        <div class="flex items-start mb-4">
-          <div class="flex-shrink-0 mr-4 p-2 text-primary bg-primary-light rounded-lg dark:bg-dark-bg">
-            <h2 class="heading">1011 Go</h2>
+      <Card class="px-4 bg-primary-light">
+        <h2 class="heading mb-4 pl-6">Les stats du jour</h2>
+        <div class="flex">
+          <div class="flex flex-col flex-grow">
+            <div class="flex items-center mt-6">
+              <img class="" src="/images/feuilleVert.svg" />
+              <p class="max-w-lg ml-2">Passer de
+                <span class="font-bold mr-2">2 à 4 ans d’usage</span> pour une tablette ou un ordinateur améliore de
+                <span class="font-bold mr-2">50% son bilan environnemental.</span></p>
+            </div>
+            <div class="flex items-center mt-6">
+              <img class="" src="/images/feuilleRouge.svg" />
+              <p class="max-w-lg ml-2">
+                <span class="font-bold mr-2">15 000 km</span> c'est la distance moyenne parcourue par une donnée numérique (mail, téléchargement, vidéo, requête web…)
+              </p>
+            </div>
+            <div class="flex items-center mt-6">
+              <img class="" src="/images/feuilleOrange.svg" />
+              <p class="max-w-lg ml-2">
+                <span class="font-bold mr-2">89% des français utilisent Internet dont 80 % tous les jours,</span> en moyenne 18h par semaine
+              </p>
+            </div>
+            <div class="flex items-center mt-6">
+              <img class="" src="/images/feuilleRouge.svg" />
+              <p class="max-w-lg ml-2">
+                <span class="font-bold mr-2">Un envoi de mail provoque une émission de CO2 entre 4g et 50g.</span> 60% des mails restent non lus.
+              </p>
+            </div>
+            <div class="flex items-center mt-6">
+              <img class="" src="/images/feuilleVert.svg" />
+              <p class="max-w-lg ml-2">Il faut 10g de CO2 pour un an de stockage en moyenne pour un mail.</p>
+            </div>
           </div>
-          <p class="font-medium">C’est l’économie totale réalisée par l’entreprise,
-            <span class="text-primary">17.2&nbsp;%</span> de mieux qu’en 2019</p>
-        </div>
 
-        <div class="flex items-start mb-6">
-          <div class="flex-shrink-0 mr-4 p-2 text-primary bg-primary-light rounded-lg dark:bg-dark-bg">
-            <h2 class="heading">19,3 Go</h2>
-          </div>
-          <p class="font-medium">C’est l’économie réalisée en moyenne par personne,
-            <span class="text-primary">8.9&nbsp;%</span> de mieux qu’en 2019</p>
         </div>
-
-        <p class="font-medium text-center">Ensemble, réduisons la pollution numérique 🌎</p>
       </Card>
     </div>
   </div>

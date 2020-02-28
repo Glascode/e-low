@@ -43,6 +43,7 @@
         </div>
       </Card>
     </div>
+
     <div class="w-full xl:w-2/5 px-4">
       <CardDetails />
 
