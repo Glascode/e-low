@@ -8,9 +8,9 @@
           <Card class="w-full flex flex-col items-center w-64 mb-8 bg-white dark:bg-dark-bg">
             <div class="flex">
               <div class="flex flex-col flex-grow items-center">
-                <img class="dark:invert" src="/images/logo_backmarket.png" />
-                <p class="max-w-lg ml-2 text-base text-center"><strong>5€</strong> de réduction (500 points) </p>
-                <button class="btn w-32 mt-12">J’en profite&nbsp;!</button>
+                <img class="mb-6 dark:invert" src="/images/logo_backmarket.png" />
+                <p class="max-w-lg mb-8 text-base text-center"><strong>5€</strong> de réduction (500 points) </p>
+                <button class="btn w-32">J’en profite&nbsp;!</button>
               </div>
             </div>
           </Card>

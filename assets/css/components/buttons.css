@@ -6,6 +6,8 @@
   @apply text-white bg-primary;
   @apply rounded-xl;
 
+  transition: background-color .15s;
+
   &:hover {
     @apply bg-primary-dark;
   }
