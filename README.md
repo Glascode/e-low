@@ -10,7 +10,7 @@
 
 1. Clone the repo
 ```sh
-git clone https://github.com/Glascode/e-low
+git clone https://github.com/maelquerre/e-low
 ```
 2. Install dependencies
 ```sh
